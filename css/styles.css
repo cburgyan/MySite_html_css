@@ -1,3 +1,31 @@
 body{
-  background-color: skyblue;
+  background-color: lightgreen;
+  margin: 0;
+}
+
+div{
+  /* background-color: #889EAF; */
+  margin: 0;
+  height: 200px;
+  width: 200px;
+}
+
+h1{
+  margin: 0;
+}
+
+p{
+
+}
+
+.top-container{
+  background-color: #889EAF;
+}
+
+.middle-container{
+  background-color: lavender;
+}
+
+.bottom-container{
+  background-color: lightyellow;
 }
