@@ -1,17 +1,19 @@
 body{
   background-color: lightgreen;
   margin: 0;
+  text-align: center;
+  font-family: fantasy;
 }
 
 div{
   /* background-color: #889EAF; */
   margin: 0;
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
 }
 
 h1{
-  margin: 0;
+  margin-top: 0;
 }
 
 p{
@@ -20,6 +22,8 @@ p{
 
 .top-container{
   background-color: #889EAF;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container{
@@ -28,4 +32,22 @@ p{
 
 .bottom-container{
   background-color: lightyellow;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 30%;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  /* left: 200px;
+  top: 0; */
 }
