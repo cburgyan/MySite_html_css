@@ -57,8 +57,28 @@ p{
   top: 0; */
 }
 
-.lemon{
-  width: 200px;
-  height: 200px;
-  margin-left: 0px;
+.python{
+  /* margin-right: 20px; */
+  padding-right: 20px;
+  height: 150px;
+  width:150px;
 }
+
+.lemon{
+  width: 150px;
+  height: 150px;
+  /* margin-left: 0px; */
+  padding-top: 20px;
+}
+
+.plus{
+  /* margin-left: 20px; */
+  /* display: inline-block; */
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+}
+/*
+.image-div{
+  text-align: left;
+} */
