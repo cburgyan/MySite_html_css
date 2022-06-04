@@ -158,6 +158,14 @@ p{
   /* margin-bottom: 1.5rem; */
 }
 
+.machine-data-description{
+  clear: right;
+}
+
+.web-dev-description{
+  clear: left;
+}
+
 .web{
   width: 9rem;
   height: 9rem;
