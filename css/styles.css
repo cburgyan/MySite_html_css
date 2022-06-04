@@ -3,6 +3,8 @@ body{
   margin: 0;
   text-align: center;
   font-family: "Gentium Plus", Helvetica, verdana, sans-serif;
+  font-size: 1.1rem;
+  color: #40514E;
 }
 
 div{
@@ -48,17 +50,18 @@ a:hover{
 
 hr{
   clear: left;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   border: none;
   border-top: dotted .5rem;
-  width: 5rem;
+  width: 7%;
   color: #DAE6E6;
 }
 
 .top-container{
   background-color: #EAF6F6;/*#cff1f7;*//*#889EAF;*/
   position: relative;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .middle-container{
@@ -67,6 +70,7 @@ hr{
 
 .bottom-container{
   background-color: #66BFBF;/*lightyellow;*/
+  padding-bottom: 0.5rem;
 }
 
 .skills{
@@ -79,7 +83,7 @@ hr{
 
 .bottom-cloud{
   position: absolute;
-  left: 20%;
+  left: 15%;
   bottom: 300px;
 }
 
@@ -129,11 +133,19 @@ hr{
 
 .programmer{
   font-family: "Montserrat", sans-serif;
+  margin-top: 27px;
 }
 
 .footer-link{
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+.profile{
+  width: 30%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skill-row-python{
@@ -196,12 +208,13 @@ hr{
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-bottom: 3rem;
   margin-top: 1rem;
   display: inline-block;
+  font-weight: normal;
 }
 
 .btn:hover {
