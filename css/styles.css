@@ -99,9 +99,17 @@ p{
   width: 9.5rem;
 }
 
-.juice{
+/* .juice{
   height: 15rem;
   width: 13.5rem;
+
+} */
+
+.juice{
+  height: 11rem;
+  width: 9.5rem;
+  float: right;
+  margin-right: 1rem;
 
 }
 
@@ -114,11 +122,23 @@ p{
   font-size: 1.2rem;
 }
 
-.skill-row{
+.skill-row-python{
   width: 50%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+
+.skill-row-juice{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
   text-align: left;
   line-height: 1.5rem;
 }
