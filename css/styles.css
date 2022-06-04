@@ -37,8 +37,8 @@ a {
   margin-bottom: .1rem;
 }
 
-p{
-
+hr{
+  clear: left;
 }
 
 .top-container{
@@ -156,14 +156,6 @@ p{
   text-align: left;
   line-height: 1.5rem;
   /* margin-bottom: 1.5rem; */
-}
-
-.machine-data-description{
-  clear: right;
-}
-
-.web-dev-description{
-  clear: left;
 }
 
 .web{
