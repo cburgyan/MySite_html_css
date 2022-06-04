@@ -55,6 +55,10 @@ p{
   background-color: lightyellow;
 }
 
+.skills{
+  margin-bottom: 4rem;
+}
+
 .pro{
   text-decoration: underline;
 }
@@ -75,29 +79,31 @@ p{
 
 .python{
   /* margin-right: 20px; */
-  padding-right: 20px;
-  height: 150px;
-  width:150px;
+  padding-right: 1.4rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .lemon{
-  width: 150px;
-  height: 150px;
+  width: 9.5rem;
+  height: 9.5rem;
   /* margin-left: 0px; */
-  padding-top: 20px;
+  padding-top: 1.3rem;
 }
 
 .plus{
   /* margin-left: 20px; */
   /* display: inline-block; */
-  padding-top: 20px;
-  height: 150px;
-  width: 150px;
+  padding-top: 1.2rem;
+  height: 9.5rem;
+  width: 9.5rem;
 }
-/*
-.image-div{
-  text-align: left;
-} */
+
+.juice{
+  height: 15rem;
+  width: 13.5rem;
+
+}
 
 .programmer{
   font-family: "Montserrat", sans-serif;
@@ -106,4 +112,36 @@ p{
 .footer-link{
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+.skill-row{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.profile-img{
+  margin-top: 2rem;
+}
+
+.skill-row-web{
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  text-align: left;
+  line-height: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+}
+
+.web{
+  width: 9rem;
+  height: 9rem;
+  float: left;
+  margin-right: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
