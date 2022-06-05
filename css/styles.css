@@ -194,6 +194,7 @@ hr{
 
 .copyright{
   color: #EAF6F6;
+  font-size: .8rem;
 }
 
 .btn {
@@ -206,7 +207,7 @@ hr{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 1rem;
   padding: 10px 20px 10px 20px;
@@ -225,4 +226,11 @@ hr{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.contact-message{
+  width: 40%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
